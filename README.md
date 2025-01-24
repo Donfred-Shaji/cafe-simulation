@@ -69,3 +69,10 @@ cd ~/cafe/
 ros2 launch two_wheeled_robot two_wheeled_robot.launch.py
 ```
 ![Simulation](https://automaticaddison.com/wp-content/uploads/2021/09/3-mobile-robot-1.jpg)
+---
+## For showing Frames
+```bash
+```bash
+ros2 run tf2_tools view_frames.py
+```
+![Simulation](https://automaticaddison.com/wp-content/uploads/2021/09/6-frames-pdf.jpg)
