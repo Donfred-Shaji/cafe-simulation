@@ -59,6 +59,12 @@ colcon build --symlink-install
 4. Source the Workspace:
 ```bash
 source install/setup.bash
-
 ```
-
+---
+## Launch the Robot in RViz
+Once the source setup is done run this laucnch code
+1. Open a new terminal, and launch the robot
+ ```bash
+cd ~/cafe/
+ros2 launch two_wheeled_robot two_wheeled_robot.launch.py
+```
