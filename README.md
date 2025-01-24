@@ -217,7 +217,7 @@ ros2 launch two_wheeled_robot office_world_v1.launch.py
 ```
 ![Simulation](https://automaticaddison.com/wp-content/uploads/2021/10/1-office-delivery.jpg)
 ---
-## For pick and delivary run the code
+## For pick and delivery run the code
 ```bash
 ros2 run two_wheeled_robot pick_and_deliver.py
 ```
