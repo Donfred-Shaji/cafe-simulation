@@ -89,7 +89,7 @@ Using ROS 2 Lifecycle and Nav2 tools for managing the butler robot's operations,
 
 - **Picking the order from the table**
 - **Delivering the order from the kitchen**
-Following code will work as life_cycle
+Following code will work as life_cycle ,This is the main code for the task
 ```bash
 #! /usr/bin/env python3
 import time # Time library
@@ -209,7 +209,6 @@ def main():
 if __name__ == '__main__':
   main()
 ```
-This is the main code for the task
 ---
 ## launch the robot in a Gazebo world
 After build and set-up run the following code:
