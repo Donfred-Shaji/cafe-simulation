@@ -83,3 +83,9 @@ ros2 launch two_wheeled_robot load_world_into_gazebo.launch.py
 ```
 Here is the output. You should see the actors walking around the cafe.
 ![Simulation](https://automaticaddison.com/wp-content/uploads/2021/09/5-cafe-world.jpg)
+---
+## Now the final step!
+Using ROS 2 Lifecycle and Nav2 tools for managing the butler robot's operations, such as:
+
+- **Picking the order from the table**
+- **Delivering the order from the kitchen**
