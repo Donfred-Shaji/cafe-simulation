@@ -75,3 +75,11 @@ ros2 launch two_wheeled_robot two_wheeled_robot.launch.py
 ros2 run tf2_tools view_frames.py
 ```
 ![Simulation](https://automaticaddison.com/wp-content/uploads/2021/09/6-frames-pdf.jpg)
+---
+## Launch File – Cafe World
+After build the package Run the following code:
+```bash
+ros2 launch two_wheeled_robot load_world_into_gazebo.launch.py
+```
+Here is the output. You should see the actors walking around the cafe.
+![Simulation](https://automaticaddison.com/wp-content/uploads/2021/09/5-cafe-world.jpg)
