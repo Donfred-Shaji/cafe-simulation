@@ -39,5 +39,26 @@ cafe/
 │   └── ...                 # Other related packages
 ├── README.md
 └── install.sh              # Installation script for dependencies
+```
+
 ## Installation
+1. Clone the Repository:
+```bash
+git clone https://github.com/yourusername/butler-robot.git ~/cafe
+cd ~/cafe
+```
+2. Install Dependencies:
+```bash
+source /opt/ros/humble/setup.bash
+rosdep install --from-paths src --ignore-src -r -y
+```
+3. Build the Workspace:
+```bash
+colcon build --symlink-install
+```
+4. Source the Workspace:
+```bash
+source install/setup.bash
+
+```
 
