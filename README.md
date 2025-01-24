@@ -44,7 +44,7 @@ cafe/
 ## Installation
 1. Clone the Repository:
 ```bash
-git clone https://github.com/yourusername/butler-robot.git ~/cafe
+git clone https://github.com/Donfred-Shaji/butler-robot.git ~/cafe
 cd ~/cafe
 ```
 2. Install Dependencies:
